@@ -17,3 +17,7 @@ class DemoItem(scrapy.Item):
 class CnblogsItem(scrapy.Item):
     title = scrapy.Field()
     href = scrapy.Field()
+
+class XiaohuarItem(scrapy.Item):
+    src = scrapy.Field()
+    name = scrapy.Field()

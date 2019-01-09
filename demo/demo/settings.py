@@ -91,3 +91,4 @@ ITEM_PIPELINES = {
 
 
 DEPTH_LIMIT = 0
+IMAGES_STORE = 'pictures'
