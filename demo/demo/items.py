@@ -12,3 +12,8 @@ class DemoItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+
+class CnblogsItem(scrapy.Item):
+    title = scrapy.Field()
+    href = scrapy.Field()
